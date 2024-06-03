@@ -1,0 +1,43 @@
+/* CSS type  Selector */
+body{
+    background-color: #5a5aa9;
+    color: #ffd3f5;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+button {
+    background-color: #B8EEE0;
+    padding: 15px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    color: #008B69;
+}
+
+/* CSS type selector: pseudo class selector */
+button:hover{
+    background-color: #65FBD2 ;
+}
+
+h1 {
+    color: #BFA9E3;
+    font-family: 'Arial', sans-serif; /* Cambia la fuente a Arial */
+    font-size: 3em; /* Ajusta el tamaño de la fuente */
+    font-weight: bold; /* Hace el texto más grueso */
+    text-align: center; /* Centra el texto */
+    margin: 20px 0; /* Ajusta los márgenes */
+    padding: 50px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Añade una sombra al texto */
+    transition: color 0.3s ease-in-out; /* Transición suave para el color */
+}
+
+h1:hover {
+    color: #ffffff; /* Cambia el color al pasar el mouse */
+}
+
+h2 {
+    color: black;
+}
+
+h3{
+    color: #FEFEDF
+}
